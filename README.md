@@ -10,6 +10,25 @@ Requirements
 
 - memcached : https://github.com/opscode-cookbooks/memcached
 
+Attributes
+----------
+
+#### chef-memcached::default
+<table>
+  <tr>
+    <th>Key</th>
+    <th>Type</th>
+    <th>Description</th>
+    <th>Default</th>
+  </tr>
+  <tr>
+    <td><tt>['chef-memcached']['use_memory_rate']</tt></td>
+    <td>Float</td>
+    <td>set percent of total memory to use memcached.</td>
+    <td><tt>0.7</tt></td>
+  </tr>
+</table>
+
 Usage
 -----
 #### chef-memcached::default
